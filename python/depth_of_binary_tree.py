@@ -12,7 +12,7 @@ class Solution:
     def __init__(self):
         self.max_diameter = None
 
-    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+    def diameter_of_binary_tree(self, root: Optional[TreeNode]) -> int:
         self.max_diameter = 0
         self.height(root)
         return self.max_diameter

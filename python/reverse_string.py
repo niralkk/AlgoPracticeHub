@@ -1,8 +1,8 @@
 def reverse_string_with_two_pointers(input_string: str) -> str:
     """
-    Function to reverse a string
-    :param input_string: string to be reversed
-    :return: reversed string
+    Function to reverse a string.
+    :param input_string: string to be reversed.
+    :return: reversed string.
     """
     # Convert the string to a list
     input_list = list(input_string)
